@@ -1,0 +1,5 @@
+CARA KERJA INTERNET
+Jika kita menonton video dari youtube, video tersebut tersimpan di pusat data youtube amerika.
+Kita meminta data tersebut dari youtube dan data tersebut dikirim dalam bentuk gelombang cahaya lewat kabel optik dasar laut
+Jika sudah sampai di Indonesia, gelombang tersebut diteruskan ke tower seluler yang selanjutnya mengirim video ke hp kita
+

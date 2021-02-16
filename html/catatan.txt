@@ -1,0 +1,86 @@
+1. PENDAHULUAN
+ Hypertext Markup Language (HTML) berfungsi memberitahu browser bagaimana konten akan ditampilkan
+ Jadi, HTML bukan bahasa pemrograman
+ HTML berfungsi seperti manekin yang membentuk struktur
+
+2. HELLO WORLD
+ lihat latihan 1
+ Tag <html> untuk mengetahui bahwa itu html
+ <head> untuk head
+ <body> yang ditampilkan
+ <p> untuk paragraf     
+ <title> untuk mengubah judul di Tab
+
+3. TAG 
+ A. <head>
+    (1). Judul Halaman
+     menggunakan <title>judul</title>
+    (2). CSS
+     menggunakan <style>css</style>
+    (3). JavaScript
+     menggunakan <script>JavaScript</script>
+    (4). Meta data
+     menggunakan <meta>Meta data</meta>
+ B. <body>
+    (1). Teks
+     <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>, ......
+    (2). Pendukung Teks
+     <br>, <hr>, <em>, <strong>, .......
+    (3). Gambar
+     <img>
+    (4). Hyperlink
+     <a>
+    (5). List (Bullet and Numbering)
+     <ul>, <ol>, <li>, <dl>, <dt>, <dd>
+    (6). Tabel
+     <table>, <thead>, <tbody>, .......
+    (7). Form
+     <form>, <input>, <select>, <button>, .......
+    (8). Script
+     <script>
+    (9). Object
+     <object>
+    (10). Grouping
+     <div>, <span>
+     
+ 4. Hyperlink
+  Menggunakan tag <a> dengan konfigurasi
+  <a href="link">apa tampilannya</a>
+  ada namanya relative url:
+  -klo nyimpen css kan biasanya di folder bawahnya, jadi kita kaya "/css/tes.css"
+  -klo mau nyari di folder atasnya pake "../tes.html"
+
+  atau klo mau berpindah ke bagian tertentu di halaman yang sama.
+  bagian yang mau dicapai ditambahin id="id1", id="id2", dst
+  trus bikin list, bisa ordered atau unordered
+  isi listnya dengan <li><a href="#id1">tampilannya</a></li>
+  klo mau ke halaman berbeda bagian tertentu pake href="halaman.html#bagian"
+
+  Jika ingin membuka link di tab baru, di <a> ditambahin target="_blank"
+ 
+ 5. Image
+  pakai <img>, didalamnya ada beberapa extension
+  1. src="" untuk source atau alamat gambar
+  2. alt="" jika gambar gagal ditampilkan, apa sebagai gantinya
+  3. title="" untuk sebagai judul gambar
+  4. width="" mengatur lebar, bisa pakai px atau %
+  5. height="" mmengatur tinggi, bisa pakai px atau %
+
+  bisa menggabungkan gambar dan hyperlink, jadi bila gambar dipencet akan mengarah ke link tertentu
+  carannya:
+  <a href="link"><img src, title, dst></a>
+
+ 6. Tabel
+  pakai <tabel> yang didalamnya ada
+   1. <thead> untuk header
+   2. <tbody> untuk body
+   3. <tr> untuk row
+   4. <th> untuk header didalam row
+   5. <td> untuk sel
+
+  masing-masing bisa ditambahin
+   1. border untuk border
+   2. cellspacing untuk menambah jarak antar cell 
+   3. cellpadding untuk menambah ruang dalam cell 
+   4. colspan untuk merging kolom
+   5. rowspan untuk merging baris
