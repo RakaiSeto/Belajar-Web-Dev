@@ -1,0 +1,20 @@
+1. PENDAHULUAN
+ Cascading Style Sheet untuk memberikan warna, ukuran dan lainnya ke halaman
+ Menurut w3.org, CSS adalah mekanisme sederhana yang mengatur gaya/style pada halaman web
+ adalah :
+ 1. Aturan yang digunakan untuk menampilkan elemen/tag HTML
+ 2. Memisahkan konten dan presentasi agar tidak bercampur
+ 3. Bisa digunakan untuk banyak html sekaligus. 
+ 4. sebuah halaman html dapat tampil berbeda dengan menambahkan css berbeda
+
+ Sebelum CSS kita harus menambahkan style sendiri di html dan memakan waktu lama.
+
+2. Anatomi CSS
+ Anatomi dasarnya adalah "selector {property : value;}"
+ 
+ 1. Selector 
+  Digunakan untuk memilih dan memanipulasi elemen spesifik pada html
+  dipilih berdasarkan tag, class, bahkan pola/pattern
+ 
+ 2. Property
+  Ada 350++ Property di CSS
