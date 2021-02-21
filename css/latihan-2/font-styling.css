@@ -1,0 +1,11 @@
+h1 {
+    font-family: arial;
+    font-size: 72px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

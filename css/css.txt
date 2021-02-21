@@ -9,7 +9,7 @@
 
  Sebelum CSS kita harus menambahkan style sendiri di html dan memakan waktu lama.
 
-2. Anatomi CSS
+2. ANATOMI CSS
  Anatomi dasarnya adalah "selector {property : value;}"
  
  1. Selector 
@@ -18,3 +18,51 @@
  
  2. Property
   Ada 350++ Property di CSS
+
+3. FONT STYLING
+ 1. Font-Family
+  Mengatur jenis font yang digunakan
+ 
+ 2. Font-Size
+  Mengatur ukuran font
+
+ 3. Font-Weight
+  Mengagtur ketebalan font
+
+ 4. Font-Variant
+  Mengubah font menjadi small caps
+
+ 5. Font-Style
+  Mengubah font menjadi italic
+  Ada juga jenis oblique
+  Jadi, jika kita menggunakan font A dan font itu mempunyai italic, maka text kita yang diganti menjadi font A Italic
+  Tapi jika tidak ada, kita menggunakan oblique. Font tersebut dipaksa dimiringkan
+
+ 6. Line-Height 
+  Mengatur spasi antar baris
+
+4. TEXT STYLING
+ bisa menggunakan komentar dengan /*komentar*/
+ 1. color
+  memberi warna pada tulisan
+  bisa dengan nama warna, hexadecimal, atau rgb
+
+ 2. text-align
+  mengatur format paragraf/teks
+  left, right, center, justify
+
+ 3. text-indent
+  memberi indentasi pada paragraf/teks
+
+ 4. text-decoration
+  mengatur dekorasi pada teks
+  underline, overline(diatas teks), line-throgh(dicoret)
+
+ 5. text-transform
+  mengubah jenis huruf menjadi huruf besar, kecil / kapital 
+
+ 6. letter-spacing
+  mengatur spasi antar huruf
+
+ 7. word-spacing
+  mengatur spasi anntar kata   
