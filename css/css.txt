@@ -66,3 +66,28 @@
 
  7. word-spacing
   mengatur spasi anntar kata   
+
+5. BACKGROUND
+ 1. background-color
+  Memberi warna pada background
+
+ 2. background-image
+  Memberi gambar pada background
+
+ 3. background-position
+  Mengatur posisi gambar pada background
+
+ 4. background-repeat
+  Mengatur jenis pengulangan pada background
+
+6. SELECTOR DASAR
+ 1. Elemen HTML
+    body, head, title, h1, p, dll
+
+ 2. id
+    jika ditambahkan di tag id="apalah", maka semua yang memiliki id tersebut akan berubah, di css dituliskan #id
+    tidak dianjurkan, lebih baik menggunakan class
+
+ 3. class    
+    jika ditambahkan di tag class="apalah", maka semua yang memiliki class tersebut akan berubah, di css dituliskan .class
+    di sebuah elemen bisa digunakan beberapa elemen
