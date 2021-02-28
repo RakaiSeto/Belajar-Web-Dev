@@ -91,3 +91,33 @@
  3. class    
     jika ditambahkan di tag class="apalah", maka semua yang memiliki class tersebut akan berubah, di css dituliskan .class
     di sebuah elemen bisa digunakan beberapa elemen
+
+7. PSEUDO CLASS 
+ 1. Link
+  1. Link
+   Jadi link yang ada di kelas x akan berubah
+
+  2. Hover
+   Jadi klo kelas x disentuh (bukan di klik) akan berubah
+
+  3. Active
+   Link yang dipencet akan berubah
+
+  4. Visited
+   Link yang pernah dikunjungi akan berubah
+
+ 2. Posisi elemen
+  1. first-child
+   memilih anak pertama dari sebuah parent
+   
+  2. last-child
+   memilih anak terakhir dari sebuah parent
+
+  3. nth-child(n)
+   memilih anak ke-n dari sebuah parent
+
+  4. first-of-type 
+   yang pertama dari jenis a
+  
+  5. last-of-type 
+   yang terakhir dari jenis a
