@@ -121,3 +121,18 @@
   
   5. last-of-type 
    yang terakhir dari jenis a
+
+8. SPECIFICITY
+ Berat selector di css berbeda2
+ Menghitung Nilai Specificity 
+ Berat sebagai berikut
+ 1. Inline (yang di html langsung, style="")
+  Bernilai 1000
+ 2. ID
+  Bernilai 100
+ 3. Class, Pseudo class etc
+  Bernilai 10
+ 4. Elemen (body, div, ol, ul, li, table, etc)
+  Bernilai 1
+
+----------DONE----------
