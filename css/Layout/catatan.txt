@@ -1,0 +1,27 @@
+1. Display
+ Bisa menggunakan Div dan Span untuk mengelompokkan bagian2
+ Div untuk mengelompokkan beberapa elemen, span untuk teks
+
+ Div default display-nya block
+ Span default display-nya Inline
+ Setiap tag html berada dalam sebuah kotak, display mengatur perilaku kotak tersebut
+ Setiap tag memiliki nilai default untuk display, tapi kita bisa merubah perilaku dengan merubah value display
+ 
+ Jenis-jenis display:
+  1. Inline
+   -Tidak bisa diatur width & height-nya, kecuali img
+   -tidak otomatis membuat baris baru
+   -lebar dan tingginya sesuai konten
+   -margin dan padding hanya mempengaruhi horizontal
+
+  2. Inline-block
+   -tidak ada elemen yang defaultnya inline-block
+   -harus diubah manual
+   -perilaku dasarnya sama dengan inline
+   -dapat diatur tinggi lebarnya 
+  
+  3. Block
+   -otomatis membuat baris baru
+   -jika tidak diatur akan otomatis memenuhi parent
+   -dapat diatur tinggi lebarnya 
+   -bisa dibuat menjadi inline, inline-block
