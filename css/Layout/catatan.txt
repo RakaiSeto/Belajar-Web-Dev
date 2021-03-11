@@ -25,3 +25,74 @@
    -jika tidak diatur akan otomatis memenuhi parent
    -dapat diatur tinggi lebarnya 
    -bisa dibuat menjadi inline, inline-block
+
+2. Dimensi dan Overflow
+ 1. Dimensi
+  1. Height
+   Lebar 
+  2. Height
+   Tinggi 
+  
+  Bisa diatur dengan [px, %, mm, cm, in, pt, pc]
+   1. px
+    dengan pixel
+   2. %
+    dengan berapa persen relatif ke parent
+   3. mm
+    milimeter
+   4. cm
+    centimeter
+   5. in
+    inchi
+   6. pt
+    point (untuk percetakan)    
+   7. pc
+    paica (untuk percetakan)    
+
+ 2. Overflow
+  Untuk jika ada yang keluar dari parent (ga muat)
+  1. visible (default)
+   tetep kelihatan
+  2. auto
+   akan ditambahkan seperti scroll, tapi kalau cukup scrollnya ilang
+  3. hidden
+   yang kelebihan disembunyikan
+  4.    
+   akan ditambahkan seperti scroll, walau cukup scrollnya tetep ada
+
+3. Box Model
+ Setiap elemen di halaman berada di sebuah kotak imajiner.
+ Kita bisa mengatur ukuran dan posisi, serta memberi background
+ Terdiri dari margin, border, padding, dan content
+
+ 1. Margin
+  area transparan di luar kotak, diluar border 
+  1. Overlapping margin 
+   Jika ada margin yang bertabrakan
+   Jika vertikal, yang diambil yang paling besar, bukan diakumulasi
+   Jika Horinzontal akan diakumulasi margin kiri dan kanan
+
+  2. Negative margin 
+   akan membuat kotak bergerak berlawanan arah
+   elemen samping berlawanan arah gerakan akan ikut bergeser, tapi yang tertimpa tidak bergeser
+
+  3. Auto 
+   khusus margin kiri dan kanan
+   akan membuat elemen ditengah parent
+
+  4. Shorthand
+   hanya menggunakan tag margin
+   1 angka, berarti 4 sisinya bernilai x
+   2 angka, secara urut vertikal lalu horizontal
+   3 angka, secara urut atas, horizontal, bawah  
+   4 angka, secara urut atas, kanan, bawah, kiri  
+   
+
+ 2. Padding
+  area antara content dan border
+
+ 3. Border
+  batas sekeliling content dan padding 
+
+ 4. Content 
+  konten
