@@ -90,9 +90,31 @@
 
  2. Padding
   area antara content dan border
+  Berada didalam Box
+  Cara penulisan sama seperti margin
+  - Tidak bisa diberi nilai negatif dan auto
+  - Menambah ukuran elemen 
 
  3. Border
-  batas sekeliling content dan padding 
+  batas sekeliling content dan padding
+  penulisannya "border: tebal style warna;"
+  tebal pakai pixel
+  style ada solid, dotted, dashed, sama double
+  warna bisa pakai hexa, bisa nama warna
+  atau bisa ditulis per sisi, atau per value 
 
  4. Content 
   konten
+
+ 5. Box-Sizing
+  Diperlukan supaya tidak usah menghitung lebar konten untuk membuat lebarnya sama 
+
+
+4. CSS Reset
+ Ada beberapa elemen memiliki default elemen, seperti body sudah mempunyai padding dan margin default
+ supaya kita punya kendali penuh, kita harus mereset elemen2 itu 
+ di awal, kita kasih 
+ * {
+    elemen yang ada defaultnya : none
+ }
+ baru dibawahnya diberi syntax css kita
