@@ -118,3 +118,24 @@
     elemen yang ada defaultnya : none
  }
  baru dibawahnya diberi syntax css kita
+
+5. Float
+ Bisa mengatur posisi elemen
+ Dapat dipaksa berada disebelah kiri/kanan parent
+
+ Gunanya
+ 1. Text Wrapping
+  Teks ditaruh di sekeliling gambar, pakai float left/right di gambar
+
+ 2. Image Gallery
+  Masukkan semua gambar kedalam 1 container, lalu buat semuanya float left/right
+
+
+6. Clear
+ Berfungsi membersihkan float
+ Klo gambar dikasi float, dianggap keluar dari flow.
+ Jika teks hanya sedikit, maka kita beri div kosong setelah teks yang diingini mengelilingi gambar
+ di div kosong tersebut, diberi "clear : float" nilainya bisa kiri, kanan, atau both, tergantung floatnya
+
+ Atau ada cara lain, pakai microfix
+ Cari microfix di gugel, copy codenya, lalu di elemen yang mau dibersihkan, beri class cf  
