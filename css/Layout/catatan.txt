@@ -138,4 +138,32 @@
  di div kosong tersebut, diberi "clear : float" nilainya bisa kiri, kanan, atau both, tergantung floatnya
 
  Atau ada cara lain, pakai microfix
- Cari microfix di gugel, copy codenya, lalu di elemen yang mau dibersihkan, beri class cf  
+ Cari microfix di gugel, copy codenya, lalu di elemen yang mau dibersihkan, beri class cf
+
+7. Positioning
+ Ketika kita memberi margin ke kotak a biar turun, kotak dibawahnya ikut turun, atau sebaliknya
+ Disini Positioning dibutuhkan. Valuenya ada static, relative, absolute, dan fixed. defaultnya adalah static
+ 1. Static
+  nilai default sesuai flow
+
+ 2. Relative
+  Jika ada yang diberi relative, maka akan maju 1 dimensi/diatasnya
+  Sekarang dia bisa diberi properti, top left bottom right sehingga bisa bergerak tanpa menggeser kotak lain
+  Ruangan yang ditempati sebelumnya masih ada
+  akan bergerak relatif posisi sebelumnya
+  
+ 3. Absolute 
+  Kotak yang diberi naik 1 dimensi, tapi ruangan yang ditempati sbelumnya hilang, yang dibawah akan naik 1
+  Bisa diberi properti top left bottom right
+  akan bergerak relatif posisi elemen parent
+  gaakan nyangkut ke container, kalau containernya static
+
+ 4. Fixed
+  Akan selalu bergerak relatif window browser
+  Biasa digunakan untuk memberi topbar atau sidebar
+
+8. Z-index
+ Untuk mengatur tumpukan elemen ketika kita nonstatik 
+ biasanya untuk membuat paling depan atau paling belakang, diberi nilai besar 99999/-99999
+ 
+   
