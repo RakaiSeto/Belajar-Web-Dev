@@ -1,0 +1,7 @@
+Mempelajari fitur2 yang baru ada di css 3
+
+1. Border radius
+ untuk membuat kotak menjadi tumpul, bisa juga menjadi frame photo lingkaran
+ "border-radius: besar tumpulnya;" atau bila mau per sisi dengan menggunakan border-top-right-radius, border-top-left-radius, border-bottom-right-radius, atau border-bottom-left-radius
+ nilai paling besar yang bisa diberi adalah 50%/separuhnya
+ tapi masalahnya teks atau gambar yang ada didalam akan keluar dari sudut tumpulnya

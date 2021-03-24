@@ -1,0 +1,8 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: salmon;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 300px;
+}
