@@ -1,0 +1,15 @@
+div {
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    background-color: rgba(255, 102, 0, 0.8);
+}
+
+.dalem {
+    background-color: rgba(135, 206, 235, 0.8);
+    position: relative;
+    right: -50px;
+    bottom: -50px;
+}

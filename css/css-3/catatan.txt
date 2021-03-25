@@ -4,4 +4,34 @@ Mempelajari fitur2 yang baru ada di css 3
  untuk membuat kotak menjadi tumpul, bisa juga menjadi frame photo lingkaran
  "border-radius: besar tumpulnya;" atau bila mau per sisi dengan menggunakan border-top-right-radius, border-top-left-radius, border-bottom-right-radius, atau border-bottom-left-radius
  nilai paling besar yang bisa diberi adalah 50%/separuhnya
- tapi masalahnya teks atau gambar yang ada didalam akan keluar dari sudut tumpulnya
+ tapi masalahnya teks atau gambar yang ada didalam akan keluar dari sudut tumpulnya, makanya diberi text-align center, dan line height sesuai tinggi container supaya pas ditengah
+
+2. Opacity
+ menggunakan "opacity:"
+ angkanya bisa 0(transparan) sampai 1 (solid)
+ jika parent tidak solid, maka child tidak bisa benar2 solid, akan ikut setengah transparan juga
+ jika ingin parent transparan tapi child solid, maka harus menggunakan properti rgba/hsla
+
+3. RGBA dan HSLA
+ rgba yaitu red, green, blue, alpha. alphanya untuk transparansi
+ hsla itu hue, saturation, lightness, alpha
+ diberi di background-color
+
+4. Box-shadow
+ untuk memberi bayangan pada suatu elemen.
+ urutannya x-offset, y-offset, blur, color
+ 1. x-offset
+  jarak bayangan di sumbu horizontal
+ 2. y-offset
+  jarak bayangan di sumbu vertikal
+ 3. blur
+  besar blurnya
+ 4. color
+  biasanya pakai rgba
+ 5. inset
+  opsional, akan mamindahkan bayangan kedalam alih2 diluar 
+
+ kita bisa memberi multiple box shadow dengan memberi koma sebelum titik koma
+
+5. text-shadow
+ seperti box shadow tapi tanpa inset dan spread, untuk teks

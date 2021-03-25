@@ -1,0 +1,13 @@
+div {
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    background-color: salmon;
+}
+
+.dalem {
+    background-color: skyblue;
+    opacity: 0.8;
+}
