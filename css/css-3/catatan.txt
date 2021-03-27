@@ -35,3 +35,43 @@ Mempelajari fitur2 yang baru ada di css 3
 
 5. text-shadow
  seperti box shadow tapi tanpa inset dan spread, untuk teks
+
+6. Gradient
+ background-image:linear/radial-gradient(<warna awal>, <warna akhir>)
+
+ 1. Linear Gradient
+  secara garis lurus, dari atas/kiri ke bawah/kanan
+ 2. Radial Gradient
+  secara lingkaran, dari dalam ke luar
+
+7. Font-face
+ 1. Menggunakan font-styling
+  ada di seri css dasar
+ 2. Menggunakan google font
+  masuk fonts.google.com, pilih font, masukkan line yang diberi ke tag head, lalu masukkan line cssnya
+ 3. @font-face
+  di css paling atas beri @font-face{}
+  lalu masukkan url:filenya
+  dapet fontnya bisa download dari internet
+
+8. Vendor Prefix
+ sintaks khusus yang diberi untuk beberapa properti css karena tiap browser karakteristiknya berbeda
+ contoh : -webkit-properti, -moz-properti, -ms-properti, -o-properti
+ -webkit- untuk chrome, safari, opera terbaru
+ -moz- untuk mozilla firefox
+ -ms- untuk internet explorer
+ -o- untuk opera versi terdahulu
+ untuk mengetahui apa saja yang perlu diberi prefix, kunjungi shouldiprefix.com
+ bisa juga menggunakan pleeease.io/play/
+
+9. Transform
+ bisa 2d dan 3d
+ transform: <fungsi>;
+ 1. scale
+  memperbesar/memperkecil
+ 2. rotate
+  memutar
+ 3. skew
+  mencondongkan
+ 4. translate
+  mengubah posisi
