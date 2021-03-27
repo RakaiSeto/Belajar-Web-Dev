@@ -75,3 +75,45 @@ Mempelajari fitur2 yang baru ada di css 3
   mencondongkan
  4. translate
   mengubah posisi
+
+10. Transition
+ memungkinkan kita merubah nilai dari elemen html secara halus
+ perbedaan transition dan animation adalah transition hanya 2 keadaan (awal dan akhir), tapi kalau animation bisa mempunyai keadaan2 antara atau keyframe
+ syntax transition adalah : transition : properti <durasi> fungsi delay
+ yang wajib adalah durasi, sisanya opsional
+ 1. durasi
+  isinya angka, bisa second atau milisecond
+  maksudnya dari keadaan a ke b berapa lama
+ 2. property
+  properti mana aja yang akan diberi transisi
+ 3. function 
+  ease, mirip ease-in-out
+  ease in, pelan-kenceng
+  ease out, kenceng-pelan
+  ease in out, pelan-kenceng-pelan
+  linear, kecepatan sama terus
+  cubic bezier, milih sendiri kecepatan dan alurnya
+ 4. delay
+  waktu tunggu sebelum mulai
+
+11. Animation 
+ pakai: 
+ "@keyframe namaanimasi
+ from{}
+ to{}"
+ from & to bisa diganti persentase bila mau beberapa kondisi
+
+ nilai yang bisa diberi ke properti secara berurut(disaat mau dimasukin ke css, bukan di keyframe):
+ name, mesti sama dengan nama keyframe
+ duration, self ex 
+ timing function
+ delay
+ iteration-count, mau diulang berapa kali, bisa infinite
+ direction, normal, awal-akhir
+            reverse, akhir-awal
+            alternate, awal-akhir-awal
+            alternate-reverse, akhir-awal-akhir
+ fill-mode, kalau mau untuk menetap di akhir, gunakan forwards
+ play-state, running dan paused, digunakan untuk javascript, untuk play dan pause animasi tengah jalan
+
+ -------DONE-------
