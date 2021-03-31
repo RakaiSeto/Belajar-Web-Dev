@@ -1,0 +1,55 @@
+membantu melayout posisi halaman website
+contoh jika kita mau membuat beberapa kotak dengan jarak yang sama
+definisi : model layout 1 dimensi yang dapat mengatur jarak dan penjajaran antar item dalam sebuah container
+
+istilah pada flexbox :
+ 1. wadah = container = parent
+ 2. elemen didalam container = items = child
+ 3. main axis = horizontal
+ 4. cross axis = vertikal
+ 5. main size = panjang
+ 6. cross size = lebar
+ 7. main start/main end = awal dan akhir secara horizontal
+ 8. cross start/cross end = awal dan akhir secara vertikal
+
+property pada container :
+ 1. display (flex atau inline flex)
+ 2. flex-direction
+  1. row, kiri ke kanan
+  2. row-reverse, kanan ke kiri
+  3. column, atas ke bawah
+  4. column-reverse, bawah ke atas
+ 3. flex-wrap
+  1. nowrap, akan memaksa masuk ke baris/kolom
+  2. wrap, yang berlebih akan dikirim kebawah/kesamping
+  3. wrap-reverse, yang berlebih akan dikirim keatas/kesamping
+ 4. justify-content
+  1. flex-start, dari awal
+  2. flex-end, akhir ke awal
+  3. center, mepet tengah
+  4. space between, bagi rata
+  5. space around, dibagi rata ke margin kanan dan kiri tiap objek
+  6. space evenly, bener2 sama semua
+ 5. align-items (secara vertikal)
+  1. flex start
+  2. flex end
+  3. center
+  4. stretch
+  5. baseline, berdasarkan teks
+ 6. align-content (mengatur jarak antar item berdasarkan cross axis)
+  1. flex-start
+  2. flex-end
+  3. center
+  4. stretch
+  5. space-between
+  6. space-around
+
+property pada items
+ 1. order (untuk urutan)
+ 2. flex-grow, untuk mengatur ukuran item relatif kontainer
+    contoh jika 1,1,3,1, maka ukurannya akan 1:1:3:1
+ 3. align self, mengatur sebuah item terhadap cross axis
+  1. flex-start
+  2. flex-end
+  3. stretch
+ 4.  
