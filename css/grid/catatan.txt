@@ -1,0 +1,25 @@
+Modul css baru untuk mendefinisikan sistem layout grid dalam 2 dimensi
+cara pakainya display:grid;
+bukan pengganti flexbox, karena tujuannya berbeda
+
+1. Terminologi
+ 1. Grid Container
+  Elemen pembungkus Grid
+ 2. Grid Item
+  Elemen yang berada didalam grid Container
+ 3. Grid Line
+  Garis horizontal atau vertikal yang memisahkan grid menjadi beberapa bagian dan ditandai angka
+ 4. Grid Cell
+  Perpotongan antara baris dan kolom, seperti excel
+ 5. Grid Area
+  Kumpulan lebih dari 1 cell yang berbentuk kotak, gaboleh bolong2
+ 6. Grid Track
+  Ukuran antara 2 grid Line
+ 7. Grid Gap
+  Jarak antara grid cell
+
+2. Column and Row
+ 1. Grid Template Columns/Rows
+  untuk mendefinisikan kolom/baris dengan cara menuliskan nilai dipisah spasi.
+  yang bisa dikasih untuk ukuran adalah (px, auto, %, dan fr/fraction)
+   
