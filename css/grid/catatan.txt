@@ -22,4 +22,107 @@ bukan pengganti flexbox, karena tujuannya berbeda
  1. Grid Template Columns/Rows
   untuk mendefinisikan kolom/baris dengan cara menuliskan nilai dipisah spasi.
   yang bisa dikasih untuk ukuran adalah (px, auto, %, dan fr/fraction)
-   
+  Ada namanya explicit dan implicit grid
+  Explicit yang kita tentukan sendiri (px, %, dll)
+  Implicit ditentukan sendiri oleh css 
+  jika mau mengatur ukuran yang implicit bisa pakai grid-auto-rows/Column
+
+ 2. Grid Auto Flow
+  Mengatur penempatan item di grid track, termasuk yang implicit
+  defaultnya row
+
+3. Special Keywords & Functions
+ 1. repeat()
+  untuk mengatur pengulangan ukuran grid
+  contoh jika mau 9 kali 50px, maka pakainya repeat(9, 50px)
+  klo mau 4 baris 1fr, lalu 5 baris 2fr, maka pakai repeat(4, 1fr) repeat(5, 2fr)
+
+ 2. min-content & max-content 
+  1. min-content
+   jika misal ada 10 kata dalam 1 cell, akan dipecah menjadi 10 baris lalu diliat yang paling panjang, lebarnya akan segitu
+  2. max-content
+   jika ada 10 kata, maka akan dipaksa jadi 1 baris
+
+ 3. auto-fill & auto-fit
+  menentukan jumlah item dalam grid track
+  perbedaannya bakal ada ketika viewport nya bisa nampung 1 atau lebih kolom tambahan
+  1. auto-fill
+   tetap nambahin kolom kedalam baris, dan kolomnya tetep makan tempat segede kolom yang seharusnya
+  2. auto-fit
+   ga nambahin baris baru, baris yang ada bakal ngelebar
+
+ 4. minmax()
+  cara pakai minmax(min, max)
+  jadi segede apapun gaakan ngelebihin max, sekecil apapun gaakan lebih kecil dari min
+  
+4. Grid Area & Grid Gap
+ 1. grid-template-area 
+  mendefinisikan grid template menggunakan nama area 
+ 2. grid template(shorthand semua)
+  {grid-template: "[nama] 'grid template area' lebar-baris" / lebar kolom2}
+  yang didalam "" diulang sebanyak n baris
+  jadi tulis dulu sebanyak jumlah baris, baru tulis lebar semua kolom di akhir setelah '/'
+ 3. gap
+  gap: rows-gap column-gap
+
+5. Grid Alignment
+ 1. justify-items
+  menyejajarkan item pada sumbu horizontal
+  start, rapat kiri
+  end, rapat kanan
+  center, tengah
+  stretch, hanya berlaku jika tidak diberi lebar
+ 2. align-items 
+  start, rapat atas
+  end, rapat bawah
+  center, tengah
+  stretch, hanya berlaku jika tidak diberi tinggi
+ 3. place-items
+  shorthand justify dan align items
+  place-items: align-items justify-items 
+ 4. justify-content
+  mengatur seluruh grid container ketika masih ada ruang
+  start
+  end
+  center 
+  stretch 
+  space-around
+  space-between
+  space-evenly
+ 5. align-content 
+  mengatur seluruh grid container ketika masih ada ruang
+  start
+  end
+  center 
+  stretch 
+  space-around
+  space-between
+  space-evenly
+ 6. place-content
+  shorthand justify dan align content
+  place-content: align-content justify-content
+
+6. Grid Item Properties
+ 1. Grid column start/end & grid row start/end 
+  menentukan tempat grid item dengan mengacu nomor atau nama grid line spesifik
+  start: <nomor> atau <nama>
+  end: span <nomor> atau <nama>
+ 2. grid-column/row
+  shorthand start dan end
+  : <start> / <end> ATAU <start> / span <value>
+ 3. grid-area 
+  bisa menentukan nama area pada item sesuai template yang sudah dibuat sebelumnya melalui grid-template-areas
+  bisa digunakan sebagai shorthand untuk grid column/row start/end, atau 4 sekaligus
+  : <name> | <row-start> / <column-start> / <row end> / <column-end>;
+ 4. justify-self
+  horizontal
+  posisi item pada cell
+  <start, end, center, stretch>
+ 5. align-self 
+  vertikal
+  posisi item pada cell
+  <start, end, center, stretch>
+ 6. place-self
+  shorthand
+  posisi item pada cell
+  <align-self> <justify-self>
