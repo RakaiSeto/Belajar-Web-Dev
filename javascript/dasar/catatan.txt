@@ -1,0 +1,40 @@
+Javascript bisa untuk:
+ Client side Web Development, dengan vanila js, atau menggunakan framework2 (JQuery, React, Ember, AngularJS)
+ Server side (backend), dengan NodeJS attau ExpressJS
+ Browser extension
+ Mobile/Desktop apk
+ IoT & Robotics
+ JSON (Javascript Object Notation)
+
+Lingkungan Pengembangan Javascript:
+ Web Browser
+ ada 2 cara supaya bisa berinteraksi
+  dengan Console developer tools, bisa menuliskan perintah javascript sederhana, bisa mengetahui error di file javascript kita, bisa juga untuk debug
+  bisa dengan menuliskan scriptnya di html, bisa dengan file terpisah atau langsung di file html
+
+1. Nilai dan tipe data JS 
+ Semua data di komputer kita tersimpan kedalam bilangan biner, dengan nilai 0 dan 1
+ contoh angka '23', akan tersimpan dengan '10111'
+
+ tipe data ada:
+ number
+ string
+ boolean
+ Object
+ function
+ undefined
+
+2. angka 
+ tidak ada integer didalam js, adanya floating point atau pecahan
+ yang bisa ditampung js sebesar 2^64
+ yang bisa kita tampung di js:
+  angka tanpa desimal
+  angka dengan desimal, tapi koma diganti titik
+  eksponen
+  bilangan negatif 
+
+ angka spesial:
+  infinity
+  -infinity
+  NaN, contoh angka dibagi string, dan semacamnya
+   
