@@ -1,0 +1,137 @@
+Javascript bisa untuk:
+ Client side Web Development, dengan vanila js, atau menggunakan framework2 (JQuery, React, Ember, AngularJS)
+ Server side (backend), dengan NodeJS attau ExpressJS
+ Browser extension
+ Mobile/Desktop apk
+ IoT & Robotics
+ JSON (Javascript Object Notation)
+
+Lingkungan Pengembangan Javascript:
+ Web Browser
+ ada 2 cara supaya bisa berinteraksi
+  dengan Console developer tools, bisa menuliskan perintah javascript sederhana, bisa mengetahui error di file javascript kita, bisa juga untuk debug
+  bisa dengan menuliskan scriptnya di html, bisa dengan file terpisah atau langsung di file html
+
+1. Nilai dan tipe data JS 
+ Semua data di komputer kita tersimpan kedalam bilangan biner, dengan nilai 0 dan 1
+ contoh angka '23', akan tersimpan dengan '10111'
+
+ tipe data ada:
+ number
+ string
+ boolean
+ Object
+ function
+ undefined
+
+2. Angka 
+ tidak ada integer didalam js, adanya floating point atau pecahan
+ yang bisa ditampung js sebesar 2^64
+ yang bisa kita tampung di js:
+  angka tanpa desimal
+  angka dengan desimal, tapi koma diganti titik
+  eksponen
+  bilangan negatif 
+
+ angka spesial:
+  infinity
+  -infinity
+  NaN, contoh angka dibagi string, dan semacamnnya
+
+3. Operator 
+ Operator sebuah simbol untuk melakukan operasi 
+ 1. Matematika
+  +, -, *, /, %
+  % itu modulus atau sisa bagian, jika 10 % 3, maka hasilnya 1, karena 10 dibagi 3, hasilnya 3 sisa 1, maka hasilnya 1
+  Urutannya yang dikerjakan duluan, kurung, kali, bagi, tambah, kurang
+
+ 2. Penugasan
+  tanda = , jika x = 10, maka 10 ditugaskan disimpan didalam x
+  tanda += , x += y, maka x = x + y
+  tanda -= , x -= y, maka x = x - y
+  tanda *= , x *= y, maka x = x * y
+  tanda /= , x /= y, maka x = x / y
+  tanda %= , x %= y, maka x = x % y
+ 
+ 3. Perbandingan
+  ==, sama dengan
+  !=, tidak sama dengan
+  ===, strict sama dengan 
+  !==, strict tidak sama dengan
+  >, lebih besar dari
+  <, lebih kecil dari
+  >=, lebih besar sama dengan
+  <=, lebih kecil sama dengan
+
+ 4. Logika
+  jawabannya hanya true & false
+  &&, and, harus benar semua 
+  ||, or, yang penting benar salah satu
+  !, not, true jadi false, dan sebaliknya
+ 
+ 5. String
+  tanda +, contoh
+  a = apel
+  b = buah
+  jika a + b, maka hasilnya apelbuah
+
+ 6. typeof
+  untuk mengetahui tipe data yang kita punya
+  typeof(operand)
+
+ 7. kondisional
+  butuh 3 operand
+  (kondisi) ? benar : salah
+  jadi bila 
+  x = 7
+  lalu kita tulis (x % 2 == 0) ? "genap" : "ganjil"
+  karen disitu salah, sisanya 1, maka hasilnya ganjil  
+
+4. String
+ string dalam javascript digunakan untuk mereprentasikan data tekstual atau plain teks
+ hanya perlu membungkus data dengan "", atau ''
+ jika butuh ada ' dan " didalam string, contoh ada percakapan, maka sebelum ' atau " yang didalam kalimat diberi backslash (/) dulu, backslash itu disebut escape character
+ 
+ ada fungsi .length, gunanya menghitung panjang sebuah string
+ 
+5. Boolean 
+ hanya mereprentasikan logika true atau false
+
+6. Variabel  
+ sebuah tempat atau wada yang memiliki nama, yang digunakan untuk menyimpan nilai
+
+ caranya 
+ 1.  deklarasi
+  var <nama variabel>
+  aturan:
+  gaboleh pake spasi
+  boleh angka tapi gaboleh didepan
+  boleh pakai underscore
+
+  yang gaboleh dipakai di nama variabel ada namanya "keyword & reserved word", yang dipakai di sintaks js 
+  kita juga bsia menggunakan shothand
+  contoh mau 3 variabel 
+  var nama = "rakai",
+      umur = 15,
+      lulus = true, 
+
+  var x; termasuk deklarasi dan inisialisasi
+ 2. inisialisasi
+  var x; termasuk deklarasi dan inisialisasi
+ 3. assignment
+  x=20; memasukkan nilai ke dalam variabel
+
+7. Mneulis Javascript
+ bisa internal atau eksternal
+ 1. Internal 
+  didalam head/body
+  bila di head, di paling bawah, pake tag script 
+  bila di body, di paling bawah, pake tag script 
+
+ 2. Eksternal 
+
+
+
+  bila kita ingin javascript menulis sesuatu, tulis "console.log(tulisan);"
+  
+  
