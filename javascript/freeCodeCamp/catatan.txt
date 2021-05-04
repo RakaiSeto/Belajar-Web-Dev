@@ -1,0 +1,134 @@
+// = comment, bisa bareng script di line yang sama
+
+DATA TYPES
+ undefined, null, boolean, string, symbol, number, and object
+
+DECLARING AND ASSINGING VARIABLE
+ declaring tuh kaya 'var a;'
+ assigning tuh kaya 'a = sekian';
+
+INITIALAZING VARIABLES WITH ASSIGNMENT OPERATORS
+ contoh var a = 9;
+ var a mendeklarasikan
+ = 9; menginisialisasi dengan assignment operator yaitu =
+
+CASE SENSITIVE VARIABLES
+ variabel di js case sensitive, jadi kita bisa bikin 2 variabel (contoh & Contoh), bisa juga (ContoH), dengan value berbeda
+
+ADDING NUMBERS
+ pake +, seperti biasa
+
+SUBTRACTING NUMBERS
+ pake -, seperti biasa 
+
+MULTIPLICATION
+ pake *
+
+DIVIDING
+ pake /
+
+INCREMENTING NUMBERS 
+ contoh a = 80;
+ trus kita inkrimiasi a = a + 1;
+ maka jadi 81, cara cepatnya adalah a++
+
+DECREMENTING NUMBERS 
+ contoh a = 80;
+ trus kita deinkrimiasi a = a - 1;
+ maka jadi 81, cara cepatnya adalah a--
+
+DECIMAL NUMBERS (FLOATS)
+ contoh 5.7, atau 0.09, atau 3.14
+
+MULTIPLY DECIMALS
+ sama kaya operasi bilangan biasa, pake + - * /
+
+FINDING A REMAINDER
+ pake %, contoh jika 10 % 3, maka 10/3 = 3 sisa 1, maka % = 1
+
+COMPOUND ASSIGNMENT WITH AUGMENTED OPERATION
+ contoh jika a = 13
+ trus a = a + 12, maka bisa ditulis a += 12, hasilnya akan sama
+
+ sama dengan pengurangan 
+ a = a - 4, maka jadi a -= 4
+
+ klo perkalian
+ a = a * 8, jadi a *= 8
+
+ klo pembagian
+ a = a / 8, jadi a /= 8
+
+DECLARE STRING VARIABLES 
+ cuma var string = 'string'
+ atau 
+ var string = "string"
+ bisa pake kutip 1 atau 2
+
+ESCAPING LITERAL QOUTE IN STRING
+ contoh ada percakapan didalam string, maka mesti kutip percakapan mesti diberi \ didepannya supaya dibedakan dari kutip string 
+ contoh : 'hari ini hari jum\'at tanggal sekian'
+
+QUOTING STRING WITH SINGLE QUOTES   
+ kadang escape quote bisa diganti jadi contoh ada percakapan pakai double quote didalam string, maka kutip pembungkus string pakai kutip 1 alih2 kutip 2, supaya yang didalam gausah dikasi \
+
+ESCAPE SEQUENCES IN STRING
+ \' = single quote
+ \" = double quote
+ \\ = backslash
+ \n = newline
+ \r = carriage return
+ \t = tab
+ \b = backspace
+ \f = form feed
+
+CONCATENATING STRING WITH PLUS OPERATOR
+ var contoh = "ini satu" + " dan ini dua"
+ maka hasilnya akan "ini satu dan ini dua"
+
+CONCATENATING STRING WITH PLUS EQUALS OPERATOR   
+ var contoh = "ini satu"
+ contoh += " dan ini dua"
+ maka hasilnya akan "ini satu dan ini dua", sama saja
+
+CONCATENATING STRING WITH VARIABLES 
+ var con1 = "halo"
+ var con2 = " tes"
+ var con3 = con1 + con2 + " yes"
+ maka hasilnya akan "halo tes yes"
+
+FIND LENGTH OF STRING
+ contoh var cth = "helo"
+ trus kita cth.length 
+ keluarnya akan 4, karena ada 4 karakter disana
+
+BRACKET NOTATION
+ contoh var cth = "helo"
+ trus kita cth[0]
+ keluarnya akan h 
+ lklo cth[1]
+ keluarnya akan e
+ 
+ klo mau nyari yang terkhir maka cth[cth.length - 1]
+ keluarnya akan o 
+
+STORE MULTIPLE DATA WITH ARRAY
+ pake [], dan didalam dipisahin pake koma
+ elemen bisa apa aja, bisa angka, bisa string, dll
+
+NESTED ARRAY 
+ klo didalam array isinya 1 atau beberapa array juga, namanya nested array 
+
+ACCESS ARRAY DATA WITH INDEXES
+ contoh var array = [1, 2, 3, 4, 5] 
+ array[4], isinya 5, sama kaya biasa 
+
+MODIFY ARRAY DATA WITH INDEXES
+ kita gabisa modif data string pake index, tapi array bisa 
+ contoh var array = [1, 2, 3, 4, 5] 
+ array[2] = 2.5;
+ maka sekarang isinya [1, 2, 2.5, 4, 5]
+
+ACCESS NESTED ARRAY 
+ contoh var nested = [[1, 2] [3, 4] [[5, 6], [7, 8]]]
+ klo nested[0][1], maka hasilnya 2, karena ngambil index ke 1, di array pertama
